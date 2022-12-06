@@ -1,3 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+vector<string> split(const string &);
+
+/*
+ * Complete the 'formingMagicSquare' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts 2D_INTEGER_ARRAY s as parameter.
+ */
+
 int formingMagicSquare(vector<vector<int>> s)
 {
 	vector<vector<int>> magic0 = { {8,1,6}, {3,5,7}, {4,9,2} };
